@@ -1,51 +1,35 @@
+body {
+  width: 700px;
+  height: 300px;
+  margin: 0;
+  padding: 0;
+}
 
-
-header h1 {
+h1 {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 5rem;
-  text-align: center;
-  font-stretch: narrower;
-  background-repeat: no-repeat;
-  background-size: 50%;
-  background-color: blanchedalmond;
+  color: green;
+  font-size: 40px;
+  text-align: top;
 }
 
 h2 {
   font-family: Arial, Helvetica, sans-serif;
-  border:thick double rgb(39, 32, 29);
-  box-shadow: 3px 3px red, -1em 0 .4em olive;
+  text-align: center;
+  color: orange;
+  text-decoration:aqua;
+    text-decoration-line: underline;
+    vertical-align: 3cm;
 }
-.relationship {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-style: normal;
-  background-color: plum;
-  background-size: 60%;
-  text-decoration-style: solid;
+p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
 }
-.feeling-sad {
-  background-color: floralwhite;
-  font-family: 'Times New Roman', Times, serif;
-  font-style: normal;
-  background-color: bisque;
-  background-size: 60%;
-  text-decoration-style: double;
-  
-}
-main {
-  background-color: rgb(31, 179, 75);
-  color: #666666;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 footer {
   background-color: rgb(238, 238, 238); color: rgb(70, 12, 20);}
 
 footer a {
   display: inline-block;
-  padding: .5rem 1rem;
+  padding: .5rem;
   color: #fff;
   background-color: blue;
   border-radius: 1rem;
