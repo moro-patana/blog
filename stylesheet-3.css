@@ -1,0 +1,49 @@
+body {
+  width: 600px;
+  border: 1rem solid red;
+}
+
+h1 > a[href*="about-me.html"] {
+    font-family: fantasy;
+    font-size: 90px;
+    text-decoration: none;
+    text-align: top;
+}
+ sp { font-weight: bold;
+    background-color: palegreen;
+}
+nav li {
+  list-style: none;
+}
+
+nav a {
+    display: inline-block;
+    margin-block-end: 1rem;
+    padding: .5rem 1rem;
+    color: #fff;
+    background-color: slateblue;
+    border-radius: .25rem;
+    font-weight: 700;
+    text-decoration: none;
+    transform: scale(1);
+    transition: transform .1s ease-out;
+  }
+  
+
+h1 {
+    animation-duration: 3s;
+    animation-name: slide-up;
+      }
+      
+  @keyframes slide-up {
+    from {
+      padding-top: 100px;
+      opacity: .25;
+      line-height: 80px;
+    }
+    to {
+      padding-top: 0;
+      opacity:1;
+    }
+
+ 
