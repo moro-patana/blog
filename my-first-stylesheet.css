@@ -1,8 +1,9 @@
 body {
+  border: 1rem solid pink;
   width: 700px;
-  height: 300px;
-  margin: 0;
-  padding: 0;
+  height: 700px;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 h1 {
@@ -25,8 +26,8 @@ p {
   font-size: 20px;
 }
 footer {
-  background-color: rgb(238, 238, 238); color: rgb(70, 12, 20);}
-
+  text-align: right;
+}
 footer a {
   display: inline-block;
   padding: .5rem;

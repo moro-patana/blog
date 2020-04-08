@@ -1,5 +1,7 @@
 body {
-  width: 600px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
   border: 1rem solid red;
 }
 
@@ -9,11 +11,14 @@ h1 > a[href*="about-me.html"] {
     text-decoration: none;
     text-align: top;
 }
- sp { font-weight: bold;
+ p { font-weight: bold;
     background-color: palegreen;
 }
 nav li {
   list-style: none;
+}
+img {
+  border-radius: 30%;
 }
 
 nav a {
