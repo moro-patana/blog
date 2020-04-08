@@ -1,0 +1,41 @@
+body {
+  border: 1rem solid pink;
+  width: 700px;
+  height: 700px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  color: green;
+  font-size: 40px;
+  text-align: top;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: orange;
+  text-decoration:aqua;
+    text-decoration-line: underline;
+    vertical-align: 3cm;
+}
+p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+}
+footer {
+  text-align: right;
+}
+footer a {
+  display: inline-block;
+  padding: .5rem;
+  color: #fff;
+  background-color: blue;
+  border-radius: 1rem;
+  text-decoration: none;
+  transform: scale(1);
+  transition: transform .2s ease-out;
+}
+
